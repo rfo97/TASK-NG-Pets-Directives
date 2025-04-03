@@ -3,10 +3,6 @@ layer(base);
 
 @import "tailwindcss";
 
-@plugin '@tailwindcss/forms' {
-  strategy: "class";
-}
-
 @theme {
   --height-112: 28rem;
   --height-120: 30rem;
