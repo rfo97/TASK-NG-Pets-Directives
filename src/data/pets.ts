@@ -1,4 +1,14 @@
-const pets = [
+export interface Pet {
+  id: number;
+  name: string;
+  description: string;
+  type: string;
+  image: string;
+  image2: string;
+  adopted: boolean;
+}
+
+const pets: Pet[] = [
   {
     id: 1,
     name: 'Cleocatra',
